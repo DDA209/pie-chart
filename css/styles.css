@@ -1,0 +1,94 @@
+* {
+	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+#datas {
+	display: flex;
+	justify-content: center;
+	padding: 2rem 0;
+}
+#datas > *:not(:first-child) {
+	margin-left: 1rem;
+}
+
+button,
+.element-color {
+	display: inline-flex;
+	border-radius: 0.4rem;
+	color: #ffffffff;
+	height: 1.3rem;
+	width: 1.3rem;
+	justify-content: center;
+	align-items: center;
+	border: none;
+}
+
+.element-color {
+	border-radius: 6.5rem;
+	width: 2rem;
+}
+
+button.add-data {
+	background-color: #04a010ff;
+}
+
+button.remove-data {
+	background-color: #a00404ff;
+}
+
+button:hover {
+	box-shadow: 0 1px 2px #00000060;
+}
+
+.add-data {
+	cursor: pointer;
+}
+
+.chart {
+	display: flex;
+	margin: 0 20vw;
+	padding: 5rem;
+	border-radius: 1rem;
+	box-shadow: 0.3rem 0.4rem 0.8rem 0.1rem #00000060;
+}
+
+#elements {
+	width: calc(60vw - 23rem);
+	margin-left: 2rem;
+}
+
+#elements > div {
+	display: flex;
+	margin: 0.2rem 0;
+	/* justify-content: space-between; */
+}
+#elements > div > *:not(:first-child) {
+	margin-left: 0.5rem;
+}
+
+.element-value {
+	width: 2rem;
+}
+.element-name {
+	width: 20rem;
+	margin-right: 0.2rem;
+	text-align: end;
+}
+
+#pie1 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 10rem;
+	width: 10rem;
+	border-radius: 50%;
+	box-shadow: 0.3rem 0.4rem 0.8rem 0.1rem #00000060;
+}
+
+.pie-center {
+	background-color: #ffffffff;
+	height: 5rem;
+	width: 5rem;
+	border-radius: 50%;
+	box-shadow: 0.3rem 0.4rem 0.8rem 0.1rem #00000060 inset;
+}
